@@ -1,0 +1,42 @@
+.result-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+  .play-btn {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 998px) {
+  .result-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0.01rem;
+
+    .play-btn {
+      display: flex;
+      gap: 0.5rem;
+    }
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .result-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0.05rem;
+
+    .play-btn {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}

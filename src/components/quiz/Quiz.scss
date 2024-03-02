@@ -1,0 +1,26 @@
+.quiz-section {
+  height: 90vh;
+  aspect-ratio: 1;
+  display: grid;
+  place-items: center;
+  border: 2px solid #ccc;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+ 
+}
+
+
+@media only screen and (max-width:998px){
+  .quiz-section{
+    height: 70vh;
+    aspect-ratio: 1;
+  }
+ 
+}
+
+@media only screen and (max-width:700px){
+  .quiz-section{
+    height: 90vh;
+    aspect-ratio: 1;
+  }
+ 
+}
